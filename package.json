@@ -1,0 +1,30 @@
+{
+  "name": "esbuild-starter",
+  "version": "1.0.0",
+  "description": "esbuild for react template",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/** --outdir=dist --loader:.js=jsx --bundle",
+    "dev": "cd dist && serve --port=8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pomodorojs/esbuild-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pomodorojs/esbuild-starter/issues"
+  },
+  "homepage": "https://github.com/pomodorojs/esbuild-starter#readme",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.38",
+    "serve": "^13.0.2"
+  }
+}
